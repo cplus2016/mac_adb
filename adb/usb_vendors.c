@@ -132,9 +132,12 @@
 // Teleepoch's USB Vendor ID
 #define VENDOR_ID_TELEEPOCH     0x2340
 
+#define VENDOR_ID_IM            0x2717
+
 
 /** built-in vendor list */
 int builtInVendorIds[] = {
+    VENDOR_ID_IM,
     VENDOR_ID_GOOGLE,
     VENDOR_ID_INTEL,
     VENDOR_ID_HTC,
